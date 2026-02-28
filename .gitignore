@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -13,3 +14,40 @@
 .externalNativeBuild
 .cxx
 local.properties
+=======
+Built artifacts
+
+bin/
+gen/
+out/
+build/
+.gradle/
+.navigation/
+
+Android Studio / IntelliJ files
+
+.idea/
+*.iml
+*.iws
+*.ipr
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+Firebase Secrets (Recommended to keep private)
+
+google-services.json
+
+Signing files
+
+*.jks
+*.keystore
+*.pk8
+*.p12
+
+OS generated
+
+.DS_Store
+Thumbs.db
+>>>>>>> 5531c3fa02d4a1d2b7f347f37c512ea75e39bd9e
