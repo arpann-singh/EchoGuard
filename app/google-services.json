@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "402185986877",
+    "project_id": "echoguardsos",
+    "storage_bucket": "echoguardsos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402185986877:android:e5a5e7e93de92701acdb54",
+        "android_client_info": {
+          "package_name": "com.example.echoguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeCtaffgI40bFEzd8Y9Kjy6hhMa1v1tD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

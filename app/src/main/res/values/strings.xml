@@ -1,0 +1,74 @@
+<resources>
+    <!-- App Branding & Identity -->
+    <string name="app_name">EchoGuard</string>
+    <string name="app_tagline">ZERO COMPROMISE PERSONAL SAFETY &amp; SURVEILLANCE</string>
+    <string name="distress_engine_label">47MS ON-DEVICE REAL-TIME AI DISTRESS ENGINE</string>
+    <string name="version_info">EchoGuard v1.0.4 | Deployment Alpha | Secure Build</string>
+    <string name="system_init">INITIALIZING DEFENSE LAYERS: Verified Forensic Integrity...</string>
+
+    <!-- Accessibility Service & Covert Triggers -->
+    <string name="accessibility_label">EchoGuard Tactical SOS Controller</string>
+    <string name="accessibility_description">EchoGuard utilizes this hardware-level service to monitor system-wide physical key events. This low-level hook enables the detection of a rapid power button sequence (5 presses within a 2-second window) to trigger a covert SOS dispatch even when the screen is powered off or locked. This service is strictly utilized for hardware-based safety triggers; it does not log keystrokes, collect sensitive personal data, or transmit user behavioral patterns to any external servers.</string>
+    <string name="power_trigger_toast">CRITICAL: SOS Sequence Detected via Hardware Interface. Dispatching...</string>
+    <string name="accessibility_status_active">Hardware Trigger: Operational and Listening</string>
+
+    <!-- Dashboard & Shield Interface -->
+    <string name="shield_title">ECHOGUARD ACTIVE DEFENSE SHIELD</string>
+    <string name="sos_label">SOS</string>
+    <string name="sos_manual_desc">Tap and hold the primary tactical button for 1.5 seconds to manually initiate the full emergency response sequence.</string>
+    <string name="sos_cancel_prompt">CONFIRM SAFETY: Provide biometric verification within 10 seconds to abort the automated emergency dispatch sequence.</string>
+    <string name="ai_guard_active">AI GUARDIAN: ACTIVE PROTECTION</string>
+    <string name="ai_guard_disabled">AI GUARDIAN: SYSTEM STANDBY</string>
+    <string name="shield_state_calibrating">SYSTEM CALIBRATION: Optimizing acoustic filters for the current ambient environment…</string>
+    <string name="shield_state_threat">THREAT SIGNATURE DETECTED: Analyzing acoustic waveform and motion patterns for distress verification…</string>
+    <string name="monitoring_description">Continuously analyzing ambient audio frequencies and multi-axis motion data for distress signatures, screams, and high-G impact events…</string>
+    <string name="system_offline">Tactical defense systems are currently offline. Tap the shield to activate immediate protection.</string>
+
+    <!-- Safe Walk / Dead Man's Switch -->
+    <string name="safe_walk_mode_title">Safe Walk (Dead Man\'s Switch)</string>
+    <string name="safe_walk_mode_desc">Activates a high-priority recurring check-in timer. If you fail to acknowledge the safety prompt within the designated window, a high-priority SOS alert with live coordinates is automatically dispatched to your emergency network.</string>
+    <string name="safe_walk_warning_title">Tactical Check-in Overdue</string>
+    <string name="safe_walk_warning_desc">Failing to provide a safety check-in within 30 seconds will trigger an automated high-priority SOS alert to your emergency network.</string>
+    <string name="check_in_timer_label">Next Safety Check-in Required In:</string>
+    <string name="manual_check_in_button">I AM SAFE (ACKNOWLEDGE)</string>
+    <string name="safe_walk_destination_reached">Destination secured. Safe Walk protocols deactivated.</string>
+
+    <!-- Detection Sensitivity & Setup -->
+    <string name="setup_guardian">Guardian System Configuration</string>
+    <string name="tactical_dark_mode">Tactical Dark Mode (OLED Shield)</string>
+    <string name="dark_mode_description">Minimizes light emission to prevent user detection and maximizes battery endurance during prolonged background monitoring sessions.</string>
+    <string name="edit_contacts">Manage Emergency Contact Network (+)</string>
+    <string name="sensitivity_shake_label">Shake SOS Sensitivity (Tactical Threshold)</string>
+    <string name="sensitivity_fall_label">Impact Detection G-Force Threshold</string>
+    <string name="sensitivity_acoustic_label">AI Acoustic Confidence Threshold</string>
+    <string name="compliance_footer">Compliant with DPDP Act 2023 | Indian Evidence Act (Sec 65B forensic standards)</string>
+
+    <!-- Evidence Vault & Incident History -->
+    <string name="incident_logs">Tactical Incident Evidence Vault</string>
+    <string name="vault_description">Secure, end-to-end encrypted activity history protected with 256-bit AES and immutable cryptographic timestamps.</string>
+    <string name="vault_empty_state">Vault Secure: No tactical incidents or distress triggers recorded in this session.</string>
+    <string name="status_notified">ALERT BROADCAST: Emergency Contacts Successfully Notified</string>
+    <string name="status_suppressed">ALERT SUPPRESSED: User Biometric Verification Successful</string>
+    <string name="evidence_encryption_details">Secured via AES-256 military-grade encryption. Metadata hashed for forensic integrity and legal admissibility.</string>
+    <string name="evidence_delete_warning">CRITICAL WARNING: This action will permanently destroy the cryptographic keys associated with this evidence package. This data will become unrecoverable and legally void. Proceed with caution.</string>
+    <string name="evidence_share_label">Generate Certified Evidence Package for Legal Discovery</string>
+
+    <!-- Permissions & Privacy Rationale -->
+    <string name="permission_location_rationale">EchoGuard requires high-accuracy GPS coordinates to provide first responders and your emergency contacts with your precise live location during a distress event.</string>
+    <string name="permission_bg_location_rationale">Background location access is essential for the \'Safe Walk\' and \'Dead Man\'s Switch\' features to maintain a safety trail while your device is locked or in your pocket.</string>
+    <string name="permission_mic_rationale">Microphone access is utilized exclusively for on-device AI classification to detect vocal distress (screams) or vehicle crash sounds. Raw audio is processed in volatile memory and never stored unless a distress event is forensicly confirmed.</string>
+
+    <!-- Authentication & Secure Entry -->
+    <string name="secure_access">BIOMETRIC DEFENSE AUTHORIZATION</string>
+    <string name="auth_biometric_prompt_title">Tactical Authentication Required</string>
+    <string name="auth_biometric_prompt_subtitle">Confirm identity via fingerprint or facial scan to access the Evidence Vault or abort an active SOS sequence.</string>
+    <string name="authorize_button">AUTHORIZE ENCRYPTION KEY ACCESS</string>
+    <string name="create_identity">Initialize New Guardian Identity Profile</string>
+    <string name="auth_error_invalid_key">Security Error: Unauthorized access attempt. Invalid key signature or biometric mismatch detected.</string>
+
+    <!-- Bluetooth Safety Mesh -->
+    <string name="mesh_network_active">Tactical Safety Mesh: Operational</string>
+    <string name="mesh_network_desc">Broadcasting encrypted safety pulses via peer-to-peer Bluetooth Low Energy mesh, ensuring distress alerts can reach connectivity via nearby Guardians when internet access is unavailable.</string>
+    <string name="mesh_node_count">Active Mesh Nodes: %1$d nearby Guardian devices detected in proximity.</string>
+    <string name="mesh_data_relay">ALERT RELAYED: Signal successfully hopped via %1$d secure mesh nodes to reach internet connectivity.</string>
+</resources>
